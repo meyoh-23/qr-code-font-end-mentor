@@ -1,0 +1,120 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    background: hsl(212, 45%, 89%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20vh;
+    font-size: 16px;
+    height: 100%vh;
+    width: 100%vh;
+    font-family: url([Outfit](https://fonts.google.com/specimen/Outfit));
+    
+
+}
+
+
+nav{
+    background: hsl(0, 0%, 100%);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 45vh;
+    align-content: center;
+    justify-content: center;
+    align-self: center;
+}
+
+.container{
+    
+}
+
+img{
+    margin-top: 1rem;
+    margin-bottom: 1.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 40vh;
+    height: 40vh;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 5%;
+    margin: 1rem ;
+}
+
+.lead{
+display: block;
+justify-items: center;    
+font-size: 1.2rem;
+color: hsl(218, 44%, 22%);
+text-overflow: var(none);
+font-weight: 700;
+margin-left: 1.25rem;
+margin-right: 1.25rem;
+margin-top: 0.5rem;
+
+}
+.text{
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 60%;
+    padding-bottom: 3rem;
+    margin-right: 1.25rem;
+    margin-left: 1.25rem;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 23px;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 375px) {
+    nav{
+        background: hsl(0, 0%, 100%);
+        border-radius: 5%;
+        display: flex;
+        flex-direction: column;
+        width: 45vh;
+        align-content: center;
+        justify-content: center;
+        align-self: center;
+    }
+
+    img{
+        width: 85%;
+        height: 90%;
+        margin-top: 0.5rem;
+        margin-bottom: 0;
+        padding-top: 0.2rem;
+    }
+
+    .lead{
+       font-size: 0.9rem;
+       margin-top: 0.5rem;
+       margin-bottom: 0.5rem;
+    }
+}
+
+@media screen and (min-width:1440px){
+   nav{
+    width: 37%;
+    height: 25%
+   }
+
+    .lead{
+        font-size: 1.75rem
+    }
+
+    .text{
+        margin-top: 0;
+        font-size: 1.35rem;
+    }
+}
